@@ -8,6 +8,15 @@ https://www.kaggle.com/anaselmasry/ai-covid19-from-cough-samples
 At folder *anaselmasry/source* you'll find the original images from kaggle.
 At folder *anaselmasry/preprocessed* you'll find the images preprocessed.
 
+Examples of source images:
+
+COVID-19 Negative
+
+![](anaselmasry/source/negative_Covid-19/negative_0_1016.jpg)
+
+COVID-19 Positive
+
+![](anaselmasry/source/positive_Covid-19/positive_0_1000.jpg)
 ## Coswara
 The second database, located at folder *coswara*, contains data derivated for the repo located here: https://github.com/iiscleap/Coswara-Data
 This repo contains audios from 1486 patients, for each patient it contains an audio for breathing-deep, breathing-shallow, cough-heavy, cough-shallow, counting-fast, counting-normal, vowel-a, vowel-e, vowel-o.
@@ -17,3 +26,13 @@ The source repo contains the data in wav format stored in tars. At this repo the
 The script *wav_to_mp3.py* is the one used to transform the source wavs to mp3.
 The script *mp3_to_spectrogram.py* is the one used to transform the mp3 files to images with the spectrogram.
 The notebook *Mel Spectrogram.ipynb* can be used to take a look into the audios to understand how to visualize the wave, get the Spectrogram, and get the Mel Spectrogram.
+
+Example of spectrograms:
+
+Cough Heavy
+
+![](coswara/spectrograms/01OCEf1yB4czsq8ygRoT51s96Ba2/cough-heavy.png)
+
+Deep Breathing
+
+![](coswara/spectrograms/01OCEf1yB4czsq8ygRoT51s96Ba2/breathing-deep.png)
