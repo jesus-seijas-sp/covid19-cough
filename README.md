@@ -7,6 +7,7 @@ The first dataset, located at folder *anaselmasry*, contains pictures of spectro
 https://www.kaggle.com/anaselmasry/ai-covid19-from-cough-samples
 At folder *anaselmasry/source* you'll find the original images from kaggle.
 At folder *anaselmasry/preprocessed* you'll find the images preprocessed.
+It contains 1934 spectrograms, 330 of them negative for COVID-19, 1604 positive for COVID-19
 
 Examples of source images:
 
@@ -26,6 +27,8 @@ The source repo contains the data in wav format stored in tars. At this repo the
 The script *wav_to_mp3.py* is the one used to transform the source wavs to mp3.
 The script *mp3_to_spectrogram.py* is the one used to transform the mp3 files to images with the spectrogram.
 The notebook *Mel Spectrogram.ipynb* can be used to take a look into the audios to understand how to visualize the wave, get the Spectrogram, and get the Mel Spectrogram.
+
+It contains data for 1486 patients, 1186 healthy, 107 positive for COVID-19, 22 recovered, and 171 non positive but with respiratory problems.
 
 Example of spectrograms:
 
