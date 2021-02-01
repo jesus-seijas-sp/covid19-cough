@@ -29,6 +29,13 @@ COVID-19 Positive
 
 ![](anaselmasry/processed/positive_Covid-19/positive_0_1000.jpg)
 
+With this data you've a notebook showing how to train a CNN 
+https://github.com/jesus-seijas-sp/covid19-cough/blob/main/Train%20anaselmasry.ipynb
+
+This gets an AUC of 0.9876 on validation data, with accuracy 0.9845, precision 09877 and recall 0.9938
+
+![](screenshots/acc_loss.png)
+
 ## Coswara
 The second database, located at folder *coswara*, contains data derivated for the repo located here: https://github.com/iiscleap/Coswara-Data
 This repo contains audios from 1486 patients, for each patient it contains an audio for breathing-deep, breathing-shallow, cough-heavy, cough-shallow, counting-fast, counting-normal, vowel-a, vowel-e, vowel-o.
