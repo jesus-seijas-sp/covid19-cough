@@ -18,6 +18,17 @@ COVID-19 Negative
 COVID-19 Positive
 
 ![](anaselmasry/source/positive_Covid-19/positive_0_1000.jpg)
+
+Same images preprocessed:
+
+COVID-19 Negative
+
+![](anaselmasry/processed/negative_Covid-19/negative_0_1016.jpg)
+
+COVID-19 Positive
+
+![](anaselmasry/processed/positive_Covid-19/positive_0_1000.jpg)
+
 ## Coswara
 The second database, located at folder *coswara*, contains data derivated for the repo located here: https://github.com/iiscleap/Coswara-Data
 This repo contains audios from 1486 patients, for each patient it contains an audio for breathing-deep, breathing-shallow, cough-heavy, cough-shallow, counting-fast, counting-normal, vowel-a, vowel-e, vowel-o.
