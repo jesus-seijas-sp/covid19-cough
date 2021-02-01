@@ -6,7 +6,7 @@ This repository contains two datasets of coughs for preliminary diagnosis of COV
 The first dataset, located at folder *anaselmasry*, contains pictures of spectrograms from this kaggle dataset:
 https://www.kaggle.com/anaselmasry/ai-covid19-from-cough-samples
 At folder *anaselmasry/source* you'll find the original images from kaggle.
-At folder *anaselmasry/preprocessed* you'll find the images preprocessed.
+At folder *anaselmasry/processed* you'll find the images preprocessed.
 It contains 1934 spectrograms, 330 of them negative for COVID-19, 1604 positive for COVID-19
 
 Examples of source images:
